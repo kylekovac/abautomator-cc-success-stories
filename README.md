@@ -9,7 +9,7 @@ A/B testing at the press of a button
 
 ## How-to-use
 
-- Fork this repo. Name it `abautomator-<experiment label>`.
+- Clone this repo. Create a branch named `<experiment name>`.
 - Update `abautomator/exp_config.py` with your experiment values
 - Standup the abautomator container
     - In it run `pytest tests/metrics/test_get_exp_objs.py::test_get_objects --runbuild`. Depending on experiment size this may take +10 minutes.
