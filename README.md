@@ -16,8 +16,8 @@ A/B testing at the press of a button
     - `exit` this Docker container
 - Standup the Flask app Docker container
     - Navigate to `http://localhost:8000/primary/`. Voila! Your experiment results.
-- (Warming) Having the two Docker containers open at the same time will hog a majority of your systems's memory
-- (Optional) If you want to debug/more control over workflow there is a `notebooks/exp_playground.ipynb` file available through the jupyter Docker container. This can also be used to save your experiment charts for upload to Google Drive
+- **(Warning)** Having the two Docker containers open at the same time will hog a majority of your systems's memory
+- **(Optional)** If you want to debug/more control over workflow there is a `notebooks/exp_playground.ipynb` file available through the jupyter Docker container. This can also be used to save your experiment charts for upload to Google Drive
 
 ## Setup
 
