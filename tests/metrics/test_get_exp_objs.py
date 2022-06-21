@@ -21,7 +21,7 @@ def test_get_objects(local_coll):
     utils.cache_obj(local_coll, f"{EXP_NAME}_coll")
     print("Data Collected! Generating Analyzers")
 
-    _generate_analyzers(local_coll)
+    _generate_analyzers()
 
 @pytest.mark.build
 def test_get_collector(local_coll):
